@@ -1,0 +1,38 @@
+export default {
+  title: 'dark',
+
+  colors: {
+    primary: '#3A78BA',
+    text: '#FFF9FB',
+    subText: '#FFF9FB',
+    background: '#38516C',
+    active: '#FFF9FB',
+    inactive: '#FFF9FB88',
+    white: '#FFF9FB',
+    black: '#000000',
+    darkBlue: '#3B5571',
+    daylight: '#F2E673',
+    thumbColor: '#FFF9FB',
+    boldColor: '#fff',
+    gradientFrom: '#38516C',
+    gradientTo: '#537498',
+    reverseText: '#474747',
+    lightGray: '#d1d1d1',
+    midGray: '#686868',
+  },
+
+  fonts: {
+    primary_300: 'Manrope-Light',
+    primary_400: 'Manrope-Regular',
+    primary_500: 'Manrope-Medium',
+    primary_600: 'Manrope-SemiBold',
+    primary_700: 'Manrope-Bold',
+    regular: 'Archivo-Regular',
+    medium: 'Archivo-Medium',
+    bold: 'Archivo-Bold',
+    black: 'Archivo-Black',
+    thin: 'Archivo-Thin',
+    light: 'Archivo-Light',
+    semibold: 'Archivo-SemiBold',
+  },
+};
