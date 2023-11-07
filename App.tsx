@@ -1,17 +1,20 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 
 import {ThemeProvider} from 'styled-components';
 
-import {SafeAreaView, Text} from 'react-native';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
+
 import theme from './src/theme/theme';
+import {HomeStackRoutes} from './src/routes/routes';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    // eslint-disable-next-line react-native/no-inline-styles
+    <GestureHandlerRootView style={{flex: 1, marginTop: 25}}>
       <ThemeProvider theme={theme}>
-        <Text>Teste</Text>
+        <HomeStackRoutes />
       </ThemeProvider>
-    </SafeAreaView>
+    </GestureHandlerRootView>
   );
 };
 
